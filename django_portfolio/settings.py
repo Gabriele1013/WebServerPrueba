@@ -86,6 +86,14 @@ DATABASES = {
         default = 'postgresql://postgres:postgres@localhost/postgres',
         conn_max_age=600
     )
+    'default': {
+        'ENGINE':'django.db.backends.postgresql_psycopg2',
+        'NAME':'gabriele',
+        'HOST':'',
+        'PORT':'5000',
+        'USER':'gabriele',
+        'PASSWORD':'123',
+    }
 }
 
 
